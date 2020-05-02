@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.headerText {
+    margin: 0 auto; 
+}
+
+.headerText h1 {
+    padding: 23% 0 0 0;
+    font-size: 7rem;
+    line-height: 1em;
+    margin-bottom: 2.5rem;
+    color: #ffffff;
+
+}
+
+.headerText p {
+    font-size: 36px;
+    color: #ffffff;
+}
+
+.mainOne {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+}
+
+.mainOneText {
+    padding: 50% 0 0 0;
+    width: 646px;
+    text-align: left;
+}
+
+.mainOneText h2 {
+    font-size: 1.75rem;
+    padding: 0 0 5px 0;
+}
+
+.mainOneText p {
+    font-size: 20px;
+    line-height: 1.4em;
+    font-family: var;
+    padding: 0 0 14px 0;
+}
+
+.mainTwo {
+    margin: 0 auto;
+    width: 900px;
+}
+
+.textBlock {
+    margin-bottom: 70px;
+}
+
+.mainTwo h3 {
+    font-size: 30px;
+    padding: 0 0 14px 0; 
+}
+
+.mainTwo p {
+    font-size: 21px;
+    font-family: var;
+    padding: 0 0 20px 0;
+}
+
+.quote {
+    background: #f7f5ec;
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.quote p {
+    padding: 25px 0 25px 10px;
+}
+
+.mark p {
+    font-size: 50px;
+    color: #dddcd4;
+    padding: 0 0 0 15px;
+}
+
+.bigText p {
+    font-size: 30px;
+    padding: 10px 0 30px 50px;
+}
+
+.textBlock p span {
+    font-weight: bold;
+}
+
+.list {
+    display: flex;
+}
+
+.columOne {
+    padding: 0 0 0 20px;
+    width: 400px;
+}
+
+.columOne h4, .columTwo h4, .textBlock h4 {
+    padding: 0 0 10px 0;
+    font-size: 18px;
+}
+
+.list ul {
+    margin-bottom: 35px;
+}
+
+.list ul li {
+    padding: 0 0 10px 0;
+    font-size: 18px;
+}
+
+.list ul li a {
+    color: #001ffe;
+    font-family: var;
+}
+
+.list ul li a:hover, .textBlock p a:hover, .mainOneText p a:hover {
+    color: #ff0000;
+}
+
+.columTwo {
+    margin-left: 100px;
+}
+
+table {
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+table tr td {
+    padding: 10px;
+}
+
+.borderBottom {
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.borderLeft {
+    border-left: 1px solid #f2f2f2;
+}
+
+.resetStyle {
+    display: grid;
+}
